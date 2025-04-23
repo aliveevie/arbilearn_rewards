@@ -25,7 +25,7 @@ contract TMetisRewardTestnet is Ownable {
     event Received(address indexed from, uint256 amount);
 
     constructor() {
-        priceFeed = AggregatorV3Interface(0x9D7f74d0C41E726EC95884E0e97Fa6129e3b5E99);
+        priceFeed = AggregatorV3Interface(0x5CbB0dfcedE94DbacbDD65F2a39dddd2497dE86e);
     }
 
     function getRewardAmountInTMetis() public view returns (uint256) {
